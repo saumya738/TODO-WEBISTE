@@ -1,0 +1,21 @@
+body  {
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+  margin-top: -5px;
+  background-color: azure;
+}
+
+ h1{
+  color: currentColor;
+  font-style:normal;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+ p{
+  color: currentColor;
+  font-style:normal;
+  font-size: initial;
+  text-align: center;
+}

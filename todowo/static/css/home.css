@@ -1,0 +1,108 @@
+body {
+  background-color: azure;
+}
+
+.topnov{
+  padding: 10px;
+  margin: 10px;
+  overflow: hidden;
+  background-color: lavender;
+
+}
+
+.topnov a {
+  float: right;
+  color: #197176;
+  padding:10px;
+  font-size: 20px;
+  margin: 10px;
+
+}
+.bold{
+  float:left !important;
+  color:black;
+  padding:10px;
+  font-size:20px;
+  text-align:initial;
+  color:#197176;
+}
+
+.second_div{
+  text-align: center;
+  padding:100px;
+
+}
+
+
+.topnov p{
+  float: right !important;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #197176;
+
+
+}
+
+#atag {
+  text-decoration-color: transparent;
+  margin-left: 56px;
+  color: darkred;
+  font-style: normal;
+}
+
+#id_title {
+  margin-left: -108px;
+
+}
+
+.but {
+  margin-left: 150px;
+  margin-top: -7px;
+}
+.todo1{
+  text-align: center;
+
+}
+todo1 input {
+  text-align: center !important;
+}
+
+
+#id_memo{
+  margin-right: -109px;
+}
+
+
+#id_title {
+  margin-left: 0px;
+}
+
+#id_important
+{
+  margin-right: 205px;
+
+}
+
+.todo1 p {
+  font-size: 29px;
+    margin-left: 74px;
+    font-family: cursive;
+    font-style: oblique;
+    color: teal;
+}
+.todo2 {
+  text-align:center;
+}
+
+.todo2 label  {
+  font-weight: bolder;
+  font-size: 23px;
+  margin-left: -23px;
+}
+
+}
+
+.todo2 button {
+  margin-left: 141px;
+  margin-top: 10px;
+}

@@ -1,0 +1,30 @@
+{%extends 'todowo/home.html'%}
+{%load static%}
+<html lang="en" dir="ltr">
+  <head>
+    {%block content%}
+    <link type="text/css" rel="stylesheet" href="{%static 'css/signup.css'%}">
+    <meta charset="utf-8">
+    <title>TO-DO</title>
+  </head>
+  <body>
+    <div class="">
+    <h1><u>SIGN-UP</u></h1>
+    <h2>{{ error }}</h2>
+    {% if user.is_authenticated %}
+    {% else %}
+    <form method="POST">
+    {% csrf_token %}
+    {%for i in form %}
+    <br>
+    {{i.label}}
+     <br>{{i}}<br>
+    {%endfor%}
+    <br>
+    <button type="submit" class="btn btn-outline-success">SIGNUP</button>
+    </form>
+    {% endif %}
+    </div>
+    {%endblock%}
+  </body>
+</html>
